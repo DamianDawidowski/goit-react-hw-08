@@ -7,6 +7,8 @@ import { persistor, store } from 'redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
 
+//const PUBLIC_URL = 'goit-react-hw-08-phonebook';
+
 const PUBLIC_URL = 'https://damiandawidowski.github.io/goit-react-hw-08';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
