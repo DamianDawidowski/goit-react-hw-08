@@ -6,7 +6,7 @@ export const AuthNav = () => {
     <Box display="flex" alignItems="center">
       <NavLink to="/login">
         <Button
-          color="brand.creme"
+          color="brand.light"
           variant="solid"
           borderColor="yellow"
           bg="transparent"
@@ -18,7 +18,7 @@ export const AuthNav = () => {
       <NavLink to="/register">
         <Button
           width="220px"
-          color="brand.creme"
+          color="brand.light"
           variant="solid"
           borderRadius="50px"
           border="4px"

@@ -15,7 +15,7 @@ export default function Home() {
         src={contactsImage}
       />
       <Box>
-        <Box color="brand.creme" mt="100">
+        <Box color="brand. light" mt="100">
           <Heading fontSize="80" fontWeight="700" lineHeight="90%" mb="10">
             WELCOME TO <br></br> PHONEBOOK
           </Heading>

@@ -7,25 +7,23 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: '#5ab2a6',
-        color: '#523221',
+        bg: '#03bafc',
+        color: '#522d21',
       },
     },
   },
   colors: {
     brand: {
-      main: '#523221',
-      creme: '#f6e6c7',
+      main: '#522d21',
+      light: '#f6d7c7',
       yellow: '#eec54b',
     },
   },
   components: {
-    Button: {
-      // Set the default color scheme to "blue"
+    Button: { 
       defaultProps: {
         variant: 'ghost',
-      },
-      // Set the default size to "md"
+      }, 
       sizes: {
         md: {
           fontSize: '26px',

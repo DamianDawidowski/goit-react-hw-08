@@ -10,11 +10,11 @@ export default function Register() {
         <title>Registration</title>
       </Helmet>
       <Box padding="6" mt="10">
-        <Heading size="xl">Create a new Phonebook account</Heading>
+        <Heading size="xl">Create your new Phonebook account</Heading>
         <RegisterForm />
         Already have an account?{' '}
         <Link to="/login" style={{ textDecoration: 'underline' }}>
-          Log in here.
+          Sign in here.
         </Link>
       </Box>
     </Container>

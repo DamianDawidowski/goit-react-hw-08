@@ -25,9 +25,9 @@ export const Layout = () => {
         <Image
           position="fixed"
           bottom="0"
-          height="250"
+          height="240"
           src={introduce}
-          zIndex="-2"
+          zIndex="-3"
         />
       </div>
     </ChakraProvider>
