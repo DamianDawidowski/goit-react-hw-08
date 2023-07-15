@@ -24,7 +24,7 @@ export const App = () => {
 
 
     return isRefreshing ? (
-      <b>Refreshing user...</b>
+      <b> Loading user data...</b>
     ) : (
       <Routes>
         <Route path="/" element={<Layout />}>
