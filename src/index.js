@@ -9,7 +9,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 //const PUBLIC_URL = 'goit-react-hw-08-phonebook';
 
-const PUBLIC_URL = 'https://damiandawidowski.github.io/goit-react-hw-08';
+const PUBLIC_URL = 'https://damiandawidowski.github.io/goit-react-hw-08-phonebook';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
