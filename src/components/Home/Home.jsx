@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { Box, Heading, Text, Button, Image } from '@chakra-ui/react';
 
-import welcome from '../../images/introduce.svg';
+import contactsImage from '../../images/contactsImage.svg';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         position="absolute"
         right="-40"
         height="850"
-        src={welcome}
+        src={contactsImage}
       />
       <Box>
         <Box color="brand.creme" mt="100">
